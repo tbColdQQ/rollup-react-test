@@ -1,0 +1,48 @@
+{
+  "name": "chindata-select-member-component",
+  "version": "0.1.0",
+  "description": "秦淮数据基础开发平台选人组件",
+  "main": "ChooseMember.js",
+  "keywords": [],
+  "scripts": {
+    "rollup-build": "cross-env BABEL_ENV=rollup rollup -c",
+    "rollup-production-build": "cross-env NODE_ENV=production rollup -c"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-external-helpers": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-react-display-name": "^7.12.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/runtime": "^7.12.5",
+    "@rollup/plugin-json": "^4.1.0",
+    "cross-env": "^7.0.3",
+    "cssnano": "^4.1.10",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-nested": "^4.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-simple-vars": "^5.0.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "dependencies": {
+    "antd": "^4.1.1",
+    "axios": "^0.19.2",
+    "less": "^3.11.1",
+    "qs": "^6.9.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

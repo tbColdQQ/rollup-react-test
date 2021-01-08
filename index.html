@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="dist/index.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/antd@4.1.1/dist/antd.min.css">
+</head>
+<body>
+  <h4>test</h4>
+  <div id="root"></div>
+  <script src="https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.development.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.development.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/antd@4.1.1/dist/antd.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@ant-design/icons@4.1.0/dist/index.umd.min.js"></script> -->
+  <!-- <script src="js/react.js"></script> -->
+  <!-- <script src="js/react-dom.js"></script> -->
+  <script src="js/antd.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qs@6.9.3/dist/qs.js"></script>
+  <script src="dist/index.js"></script>
+  <!-- <script type="text/babel" src="index.js">
+
+  </script> -->
+  <script>
+    // let choosemember = geneUI({
+    //   selectedArr: [],
+    //   selectedList: [],
+    //   orgUrl: '',
+    //   userUrl: '',
+    //   getSelectedList: function(res) {}
+    // })
+    // console.log(choosemember)
+    ReactDOM.render(geneUI(), document.getElementById("root"))
+  </script>
+</body>
+</html>
