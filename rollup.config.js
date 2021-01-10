@@ -47,10 +47,10 @@ export default {
   // }
   ],
   // 注入全局变量比如jQuery的$这里只是尝试 并未启用
-  // globals: {
-  //   react: 'React',                                         // 这跟external 是配套使用的，指明global.React即是外部依赖react
-  //   antd: 'antd'
-  // },
+  globals: {
+    react: 'React',                                         // 这跟external 是配套使用的，指明global.React即是外部依赖react
+    "react-dom": "ReactDOM",
+  },
   // 自定义警告事件，这里由于会报THIS_IS_UNDEFINED警告，这里手动过滤掉
   onwarn: function (warning) {
     if (warning.code === 'THIS_IS_UNDEFINED') {
@@ -58,8 +58,8 @@ export default {
     }
   },
   // 将模块视为外部模块，不会打包在库中
-  // external: ['antd', '@ant-design/icons', 'react', 'react-dom', 'axios', 'qs'],
-  external: ['axios', 'qs', 'antd', '@ant-design/icons'],
+  external: ['antd', '@ant-design/icons', 'react', 'react-dom', 'axios', 'qs'],
+  // external: ['axios', 'qs', 'antd', '@ant-design/icons'],
   // 插件
   plugins: [
     json(),

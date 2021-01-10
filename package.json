@@ -2,7 +2,7 @@
   "name": "chindata-select-member-component",
   "version": "0.1.0",
   "description": "秦淮数据基础开发平台选人组件",
-  "main": "ChooseMember.js",
+  "main": "test.js",
   "keywords": [],
   "scripts": {
     "rollup-build": "cross-env BABEL_ENV=rollup rollup -c",
@@ -42,7 +42,6 @@
     "axios": "^0.19.2",
     "less": "^3.11.1",
     "qs": "^6.9.3",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.13.1"
   }
 }
