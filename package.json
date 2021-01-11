@@ -1,6 +1,6 @@
 {
   "name": "chindata-select-member-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "秦淮数据基础开发平台选人组件",
   "main": "dist/index.js",
   "keywords": [],
