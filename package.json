@@ -2,7 +2,7 @@
   "name": "chindata-select-member-component",
   "version": "0.1.0",
   "description": "秦淮数据基础开发平台选人组件",
-  "main": "test.js",
+  "main": "dist/index.js",
   "keywords": [],
   "scripts": {
     "rollup-build": "cross-env BABEL_ENV=rollup rollup -c",

@@ -33,7 +33,7 @@ const env = process.env.NODE_ENV;
 
 export default {
   // 入口文件我这里在components下统一导出所有自定义的组件
-  input: 'test.js',
+  input: 'index.js',
   // 输出文件夹，可以是个数组输出不同格式（umd,cjs,es...）通过env是否是生产环境打包来决定文件命名是否是.min
   output: [{
     // file: `dist/dna-ui-react-umd${env === 'production' ? '.min' : ''}.js`,
